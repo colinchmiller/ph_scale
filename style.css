@@ -5,12 +5,12 @@ h1 {
   color: #474747;
   background-color: #c6c6c6;
   margin: 20px 0;
-  padding: 10px;
+  padding: 20px;
 }
 p {
   color: #c6c6c6;
   margin: 0;
-  padding: 10px;
+  padding: 10px 20px;;
 }
 p.zero {
   background-color: #420100;
@@ -28,13 +28,13 @@ p.four {
   background-color: #F20300;
 }
 p.five {
-  background-color: #AD4942;
+  background-color: #FF1142;
 }
 p.six {
   background-color: #FF6B61;
 }
 p.seven {
-  background-color: #3D7F07;
+  background-color: #845AAD; /*#3D7F07;*/
 }
 p.eight {
   background-color: #70BCFF;
@@ -61,10 +61,9 @@ p.fourteen {
 ZOOM ANIMATION
 **************/
 .hover {
-  height: 25px;
-  -webkit-transition: height 1s;
-  transition: height 1s;
+  -webkit-transition: padding .75s;
+  transition: padding .75s;
 }
 .hover:hover {
-  height: 50px;
+  padding: 30px;
 }
