@@ -1,7 +1,10 @@
+* {
+  font-family: sans-serif;
+}
 h1 {
   color: #474747;
   background-color: #c6c6c6;
-  margin: 0;
+  margin: 20px 0;
   padding: 10px;
 }
 p {
@@ -53,4 +56,15 @@ p.thirteen {
 }
 p.fourteen {
   background-color: #041133;
+}
+/*************
+ZOOM ANIMATION
+**************/
+.hover {
+  height: 25px;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+}
+.hover:hover {
+  height: 50px;
 }
