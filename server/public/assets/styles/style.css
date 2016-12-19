@@ -12,7 +12,7 @@ p {
   margin: 0;
   padding: 10px 20px;;
 }
-p.zero {
+.zero {
   background-color: #420100;
 }
 p.one {
@@ -61,9 +61,13 @@ p.fourteen {
 ZOOM ANIMATION
 **************/
 .hover {
+  padding: 10px;
   -webkit-transition: padding .75s;
   transition: padding .75s;
 }
 .hover:hover {
   padding: 30px;
+  span {
+    color: green;
+  }
 }

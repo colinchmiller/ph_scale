@@ -1,0 +1,24 @@
+{
+  "name": "ph_scale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinchmiller/ph_scale.git"
+  },
+  "author": "Colin Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinchmiller/ph_scale/issues"
+  },
+  "homepage": "https://github.com/colinchmiller/ph_scale#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}
